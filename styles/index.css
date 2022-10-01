@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  paleblue: '#E0E8FF';
+  brightblue: '#3829E0';
+  verypaleblue: '#F5F7FF';
+  desaturatedblue: '#7280A7';
+  darkblue: '#1F2F56';
+  fontfamily: 'redHat';
+}
+
+@tailwind base;
+body {
+  @apply bg-paleblue overscroll-none;
+}
+
+@tailwind components;
+button {
+  @apply px-16 py-3 text-sm font-bold rounded-xl text-desaturatedblue;
+}
+@tailwind utilities;
